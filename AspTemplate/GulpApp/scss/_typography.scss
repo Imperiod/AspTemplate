@@ -1,0 +1,131 @@
+/*------------------------------------------------------------*/
+/* TYPOGRAPHY */
+.dcg-tpg {
+    p {
+        margin-bottom: 10px;
+    }
+    /*p + p {
+        margin-bottom: 40px;
+    }*/
+
+    blockquote {
+    }
+
+    img {
+    }
+
+    a {
+    }
+
+    a:hover {
+    }
+
+    a:visited {
+    }
+
+    ul, ol {
+    }
+
+    li {
+    }
+
+    ul {
+        li {
+            &::before {
+            }
+        }
+    }
+
+    ol {
+        li {
+        }
+    }
+
+
+    table {
+        width: 100%;
+    }
+
+    th {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        padding: 18px 0;
+        vertical-align: middle;
+
+
+        a {
+            font-weight: 400 !important;
+            text-align: right;
+            color: #63696F;
+        }
+    }
+
+    td ~ td {
+        padding-left: 10px;
+    }
+
+    tr {
+        border-bottom: 1px solid #ECECEC;
+    }
+
+    td {
+        padding: 18px 0;
+        vertical-align: middle;
+    }
+
+    td ~ td + td, th ~ th + th {
+        text-align: right;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+    }
+
+    h1 {
+    }
+
+    h2 {
+        text-align: start !important;
+    }
+
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    h3 ~ h3 {
+        margin-top: 40px;
+    }
+
+    h4 {
+    }
+
+    h5 {
+    }
+
+    h6 {
+    }
+
+    b {
+    }
+
+    i {
+    }
+
+
+    @include media-breakpoint-down (sm) {
+        td ~ td {
+            text-align: end;
+        }
+    }
+
+    @include media-breakpoint-down (xs) {
+        h2 {
+            font-size: 18px;
+        }
+    }
+}
+/* /TYPOGRAPHY */
+/*------------------------------------------------------------*/
